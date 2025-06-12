@@ -7153,15 +7153,18 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
 .hero-shape {
   position: absolute;
   top: 51px;
-  right: 214px;
+  /* right: 214px; */
   z-index: -1; }
   @media only screen and (min-width: 1200px) and (max-width: 1500px) {
     .hero-shape {
       top: 20px;
-      right: -50px; } }
+      /* right: -50px;  */
+    } }
   @media (max-width: 1199px) {
     .hero-shape {
-      right: 1%; } }
+      /* right: 1%; */
+     }
+     }
   @media only screen and (min-width: 1200px) and (max-width: 1300px) {
     .hero-shape {
       max-width: 700px; } }
